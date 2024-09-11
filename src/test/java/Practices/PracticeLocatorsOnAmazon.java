@@ -21,6 +21,7 @@ public class PracticeLocatorsOnAmazon {
 		driver.get("https://www.amazon.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(300,TimeUnit.SECONDS);
+		
 		driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("windows blinds");
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();

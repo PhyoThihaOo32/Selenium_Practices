@@ -44,6 +44,7 @@ public class LoginTest {
 			driver.findElement(By.id("password")).sendKeys("secret_sauce");
 			driver.findElement(By.xpath("//input[@id='login-button']")).click();
 			
+			
 
 		}
 		

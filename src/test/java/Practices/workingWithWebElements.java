@@ -14,6 +14,8 @@ public class workingWithWebElements {
 	
 	public static void main(String[]args) {
 		
+		
+		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
