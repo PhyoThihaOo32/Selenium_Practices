@@ -28,6 +28,8 @@ public class AlertAlert {
 		
 		driver.quit();
 		
+		//Here as well
+		
 	}
 	
 }

@@ -20,6 +20,8 @@ public class ReadWrite {
 		properties.setProperty("testdata", "001");
 		properties.store(outputStream, "This is customer ID");
 		
+		//FileInput
+		
 		
 	}
 
